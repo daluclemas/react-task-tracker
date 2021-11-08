@@ -1,0 +1,68 @@
+.formInputs{
+    border: 1px hidden red;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.displayFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexDisplay{
+    display: flex;
+    align-items: baseline;
+}
+
+.inputDiv{
+
+    border:2px hidden black;
+    margin: 20px auto;
+    width: 90%;
+}
+
+label{
+    text-transform: capitalize;
+    font-weight: 700;
+    padding-bottom:10px;
+    font-size: 24px;
+}
+
+.addInputs{
+    outline:none;
+    height: 40px;
+    width: 70%;
+    padding: 5px;
+}
+
+input[placeholder]{
+
+    font-size:16px;
+
+}
+
+.reminder{
+    margin-left: 10px;
+}
+
+.btnContainer{
+    border: 2px hidden black;
+    width:250px;
+    margin: 5px auto ;
+    height: 40px;
+    background:black;
+    border-radius: 10px;
+
+}
+
+.btn{
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    text-transform: capitalize;
+    background:transparent;
+    font-weight: 20px;
+    color: white;
+}

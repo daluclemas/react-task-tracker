@@ -1,0 +1,29 @@
+.tasks{
+
+    display: flex;
+    flex-direction : column;
+    background: rgba(0,0,0,0.2);
+    width: 90%;
+    margin: 20px auto;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.subtasks{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
+
+.tasks h2{
+
+    text-transform: capitalize;
+    line-height: 2;
+}
+
+.reminder{
+    border-left: 3px solid green;
+}
